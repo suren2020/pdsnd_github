@@ -300,7 +300,7 @@ def user_stats(df, city):
     start_time = time.time()
 
     #Display counts of user types
-    print("The count of user types:")
+    print("The count of the types of user:")
     print(df['User Type'].value_counts())
 
 
