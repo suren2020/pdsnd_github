@@ -83,7 +83,7 @@ def get_filters():
 
 def display_data(df, display_number_of_rows):
     """
-    Displays data from the dataframe, certain number of rows at a time, until the user stops the display of data.
+    Displays the data from the dataframe, certain number of rows at a time, until the user stops the display of data.
 
     Args:
         df - dataframe from which the data is displayed
