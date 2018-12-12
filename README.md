@@ -1,7 +1,7 @@
 ### Date December 11, 2018 
 Include the date you created this project and README file.
 
-### Project Title
+### Git Commands Exercise 
 Replace the Project Title
 
 ### Description
