@@ -83,7 +83,7 @@ def get_filters():
 
 def display_data(df, display_number_of_rows):
     """
-    Displays data from the dataframe, certain number of rows at a time, until the user stops the display of data.
+    Displays the data from the dataframe, certain number of rows at a time, until the user stops the display of data.
 
     Args:
         df - dataframe from which the data is displayed
@@ -300,13 +300,13 @@ def user_stats(df, city):
     start_time = time.time()
 
     #Display counts of user types
-    print("The count of user types:")
+    print("The count of the types of user:")
     print(df['User Type'].value_counts())
 
 
     #Display counts of gender
     if ((city.lower() == "chicago") or (city.lower() == "nyc")) :
-        print("\nThe count of gender types:")
+        print("\nThe count of types of gender:")
         print(df['Gender'].value_counts())
         print("\nThe earliest birth year:")
         print(int(df['Birth Year'][df['Birth Year'].idxmin()]))
