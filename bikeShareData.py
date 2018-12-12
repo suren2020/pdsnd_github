@@ -197,7 +197,7 @@ def station_stats(df, month, day):
     start_time = time.time()
 
 
-    # Given a month, filter the data for that month
+    # Given a month, filter the data for the given month
     if (month.title() != "All") :
 
         # if "All" days is specified, determine popular start station, popular end station and popular trip among all days of the specified month
