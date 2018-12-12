@@ -306,7 +306,7 @@ def user_stats(df, city):
 
     #Display counts of gender
     if ((city.lower() == "chicago") or (city.lower() == "nyc")) :
-        print("\nThe count of gender types:")
+        print("\nThe count of types of gender:")
         print(df['Gender'].value_counts())
         print("\nThe earliest birth year:")
         print(int(df['Birth Year'][df['Birth Year'].idxmin()]))
